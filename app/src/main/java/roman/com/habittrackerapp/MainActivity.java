@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         databaseHandler.addHabit(habit);
         Habit returnedHabit = databaseHandler.getHabit("brushing teeth");
         if(returnedHabit != null){
-            System.out.println(returnedHabit.toString());
+            System.out.println(">>>" + returnedHabit.toString());
         }else{
             System.out.println(">>> no habit returned");
         }

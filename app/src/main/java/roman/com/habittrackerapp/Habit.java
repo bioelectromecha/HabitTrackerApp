@@ -32,7 +32,7 @@ public class Habit {
      */
     @Override
     public String toString() {
-        return ">>> Habit{" +
+        return "Habit{" +
                 "mName='" + mName + '\'' +
                 ", mTimesRepeated=" + mTimesRepeated +
                 ", mTimesSpent=" + mTimesSpent +
